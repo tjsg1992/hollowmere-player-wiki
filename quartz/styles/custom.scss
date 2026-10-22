@@ -7,6 +7,25 @@
   font-weight: 700;
 }
 
+// Folder pages (Party, People, ...): plain name list in the body font, without dates or the item count.
+.page-listing {
+  > p,
+  .meta,
+  .tags {
+    display: none;
+  }
+
+  .section {
+    display: block;
+  }
+
+  .section h3 {
+    font-family: var(--bodyFont);
+    font-weight: 700;
+    margin: 0.25rem 0;
+  }
+}
+
 // Theme picker dropdown (quartz/static/theme-picker.js).
 #theme-picker {
   position: fixed;

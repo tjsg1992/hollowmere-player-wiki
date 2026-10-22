@@ -49,6 +49,7 @@
   }
   const vars = ["light", "lightgray", "gray", "darkgray", "dark", "secondary", "tertiary", "highlight"]
   const key = "hollowmere-theme"
+  const defaultTheme = "grimoire"
   const read = () => { try { return localStorage.getItem(key) } catch { return null } }
   const write = (v) => { try { localStorage.setItem(key, v) } catch {} }
 
@@ -61,9 +62,14 @@
   }).join("\n") +
     // The fonts plugin hard-codes the header font on headings, so point them back at the variable.
     "\nhtml[data-skin] :is(h1,h2,h3,h4,h5,h6,.page-title){font-family:var(--headerFont)}"
-  const style = document.createElement("style")
-  style.textContent = css
-  document.head.appendChild(style)
+  // Quartz drops unknown <head> elements when it swaps pages, so the stylesheet is re-added on every navigation.
+  function ensureStyle() {
+    if (document.getElementById("skin-css")) return
+    const style = document.createElement("style")
+    style.id = "skin-css"
+    style.textContent = css
+    document.head.appendChild(style)
+  }
 
   function loadFonts(id) {
     const t = themes[id]
@@ -76,23 +82,33 @@
     document.head.appendChild(link)
   }
   function apply(id) {
-    if (!themes[id]) id = "parchment"
+    if (!themes[id]) id = defaultTheme
+    ensureStyle()
     loadFonts(id)
     if (id === "parchment") document.documentElement.removeAttribute("data-skin")
     else document.documentElement.setAttribute("data-skin", id)
     return id
   }
+  // First visit: dark mode. Quartz's own toggle stores the choice under "theme", so a later change sticks.
+  try {
+    if (!localStorage.getItem("theme")) {
+      localStorage.setItem("theme", "dark")
+      document.documentElement.setAttribute("saved-theme", "dark")
+    }
+  } catch {}
   apply(read())
 
   // Quartz swaps page content on navigation, so re-add the picker after each "nav" event.
   function mount() {
-    if (document.getElementById("theme-picker")) return
+    apply(read())
+    const existing = document.getElementById("theme-picker")
+    if (existing) { existing.querySelector("select").value = read() || defaultTheme; return }
     const wrap = document.createElement("label")
     wrap.id = "theme-picker"
     wrap.textContent = "Theme "
     const select = document.createElement("select")
     for (const [id, t] of Object.entries(themes)) select.add(new Option(t.label, id))
-    select.value = apply(read())
+    select.value = read() || defaultTheme
     select.addEventListener("change", () => write(apply(select.value)))
     wrap.appendChild(select)
     document.body.appendChild(wrap)
