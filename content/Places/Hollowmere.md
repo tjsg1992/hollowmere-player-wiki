@@ -1,6 +1,6 @@
 ---
 title: "Hollowmere"
 ---
-A small town with a chapel, a notable cemetery, an inn and outlying farms. Nobody in town used magic before the attack. On a clear day you can see [[The Abandoned Monastery]] on a hill to the south-west. Further off to the south-east stands [[The Tall Building to the South-East]].
+A small town with a chapel, a cemetery, an inn and outlying farms. [[The Abandoned Monastery]] stands on a hill to the south-west. [[The Tall Building to the South-East]] lies further off to the south-east.
 
 Sites: [[Hollowmere Chapel]] · [[Hollowmere Cemetery]] · [[The Inn]] · [[Mira's House]] · [[The Tithe Hall]] · [[The Moss Farm]]

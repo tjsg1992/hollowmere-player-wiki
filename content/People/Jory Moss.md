@@ -1,6 +1,4 @@
 ---
 title: "Jory Moss"
 ---
-The groom, son of [[Pella Moss]]. A soft-hearted orchard boy whose vows were full of trees ("like the bark knows… the tree").
-
-When the dead came, he ran out and carried [[Old Mother Hale]] into the chapel, and a skeleton raked his arm. He fought on with a stool leg. Afterwards the Brotherhood of Ash found the scratch and dragged him away "like a sack of grain".
+The groom. Son of [[Pella Moss]] and grandson of [[Agnes Moss|Granny Agnes]]. A skeleton scratched his arm while he was carrying [[Old Mother Hale]] to safety. The Brotherhood of Ash took him into custody because of the scratch.

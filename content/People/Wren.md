@@ -1,4 +1,4 @@
 ---
 title: "Wren"
 ---
-An eight-year-old girl, bolder than the other children. She dared [[Dohr Shortfoot]] to touch the big gravestone (*"Bet you a copper you won't touch the big one"*) and paid up when he cartwheeled to it. She was caught outside when the dead rose. [[Asha]] pulled her in through a window, and she saw [[Bertil Crane]] die there.
+An eight-year-old girl. She dared [[Dohr Shortfoot]] to touch the big gravestone and paid him a copper. [[Asha]] pulled her into the chapel through a window. She saw [[Bertil Crane]] killed.

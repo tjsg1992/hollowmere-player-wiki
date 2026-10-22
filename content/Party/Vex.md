@@ -3,6 +3,6 @@ title: "Vex"
 ---
 **Player:** Eli · **Tiefling ranger** (urchin)
 
-Four feet tall, grey-skinned and red-eyed, getting by day to day. Hired by [[Tamsin Pike]] to serve at the wedding, with his horns under a hat, his tail under a sash, and armour, a shortsword and a scimitar under the uniform. Not strong. Grew up in [[Hollowmere]] and knew [[Ned Barrow]] as a kid.
+Four feet tall, with grey skin and red eyes. Hired by [[Tamsin Pike]] to serve at the wedding. Grew up in [[Hollowmere]].
 
-**Session 1:** cast fire from his fingertip in front of half the town (they now know he uses magic), killed a zombie, and was nearly killed by another. Afterwards he gave up the disguise: horns and tail out. He saw the Brotherhood drag [[Jory Moss]] away.
+**Session 1:** Cast fire magic in front of the town and was nearly killed by a zombie, then gave up his disguise.

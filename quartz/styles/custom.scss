@@ -1,3 +1,8 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Explorer folder names read better in the body font than in Cinzel's small caps.
+.explorer .folder-container .folder-button,
+.explorer .folder-container .folder-title {
+  font-family: var(--bodyFont);
+  font-weight: 700;
+}

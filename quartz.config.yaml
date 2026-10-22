@@ -15,30 +15,31 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      title: Cinzel
+      header: Cinzel
+      body: Alegreya Sans
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f8f3e8"
+        lightgray: "#e4d9c3"
+        gray: "#b3a385"
+        darkgray: "#3b3329"
+        dark: "#231a12"
+        secondary: "#8a2d1b"
+        tertiary: "#b56a2a"
+        highlight: rgba(138, 45, 27, 0.08)
+        textHighlight: "#f2c94c88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1b1814"
+        lightgray: "#3a332a"
+        gray: "#776a57"
+        darkgray: "#ddd3c1"
+        dark: "#f3eadb"
+        secondary: "#e08a6a"
+        tertiary: "#d9a066"
+        highlight: rgba(224, 138, 106, 0.12)
+        textHighlight: "#b3870288"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -109,8 +110,16 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      title: Cinzel
+      header: Cinzel
+      body:
+        name: Alegreya Sans
+        weights: [400, 700]
+        includeItalic: true
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: its-theme
       variation: ttrpg-dnd
@@ -159,11 +168,41 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: Explorer
+      folderDefaultState: collapsed
+      folderClickBehavior: collapse
+      useSavedState: true
     layout:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        drag: true
+        zoom: true
+        depth: 1
+        scale: 1
+        repelForce: 1
+        centerForce: 0.4
+        linkDistance: 60
+        fontSize: 0.8
+        opacityScale: 4
+        showTags: false
+        focusOnHover: true
+      globalGraph:
+        drag: true
+        zoom: true
+        depth: -1
+        scale: 1
+        repelForce: 0.6
+        centerForce: 0.25
+        linkDistance: 40
+        fontSize: 0.8
+        opacityScale: 3
+        showTags: false
+        focusOnHover: true
     layout:
       position: right
       priority: 10
@@ -176,7 +215,7 @@ plugins:
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -186,7 +225,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: "@quartz-community/content-meta"
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
