@@ -1,9 +1,8 @@
 ---
 title: "Quick Reference"
 ---
-
 ## Current situation
-- The party is in the [[Hollowmere Cemetery]], beside two dug-up giant graves. Drag marks lead into the woods, where singing can be heard.
+- The party is in the [[Hollowmere Cemetery]], beside two dug-up large graves. Drag marks lead into the woods, where singing can be heard.
 - [[Oren Pike]] is missing, and [[Ned Barrow]] is waiting at the cemetery gate.
 - [[Jory Moss]] was taken by the Brotherhood of Ash.
 - Ravens are attacking [[The Moss Farm]].

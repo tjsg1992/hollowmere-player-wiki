@@ -90,6 +90,7 @@ export default (() => {
         )}
 
         <link rel="icon" href={iconPath} />
+        <script src={joinSegments(baseDir, "static/theme-picker.js")}></script>
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
