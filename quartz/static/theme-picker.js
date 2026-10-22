@@ -111,7 +111,9 @@
     select.value = read() || defaultTheme
     select.addEventListener("change", () => write(apply(select.value)))
     wrap.appendChild(select)
-    document.body.appendChild(wrap)
+    // End of the page content, below the footer, so it only shows once the reader has scrolled all the way down.
+    const footer = document.querySelector("footer")
+    ;(footer ? footer.parentElement : document.body).appendChild(wrap)
   }
   document.addEventListener("nav", mount)
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mount)

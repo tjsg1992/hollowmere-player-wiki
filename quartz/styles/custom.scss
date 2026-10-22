@@ -26,23 +26,23 @@
   }
 }
 
-// Theme picker dropdown (quartz/static/theme-picker.js).
+// The off-screen mobile Explorer drawer is wider than the viewport, which allowed sideways scrolling.
+html,
+body {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+// Theme picker dropdown (quartz/static/theme-picker.js): sits at the very bottom of the page, not fixed.
 #theme-picker {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 50;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.4rem;
-  padding: 0.35rem 0.6rem;
-  border: 1px solid var(--lightgray);
-  border-radius: 6px;
-  background: var(--light);
+  margin: 1.5rem 0 1rem;
   color: var(--darkgray);
   font-family: var(--bodyFont);
   font-size: 0.85rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 
   select {
     font: inherit;

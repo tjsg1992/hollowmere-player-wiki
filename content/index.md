@@ -1,5 +1,5 @@
 ---
-title: "Hollowmere — Player Wiki"
+title: "Tavelin — Player Wiki"
 ---
 
 - [[Quick Reference]]
