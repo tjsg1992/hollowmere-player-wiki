@@ -1,13 +1,13 @@
 ---
 title: "Tavelin — Player Wiki"
 ---
-
 - [[Quick Reference]]
-- [[Session 1 Recap]]
+- [[Session 2 Recap]]
+- [[Previous Recaps]]
 
 ## The party
 - [[Asha]] (Rajat)
-- [[Dohr Shortfoot]] (Bryce)
+- [[Dhor Shortfoot]] (Bryce)
 - [[Truman]] (Josh)
 - [[Vex]] (Eli)
 
@@ -18,12 +18,15 @@ title: "Tavelin — Player Wiki"
 
 **The Brotherhood of Ash:** [[Brannic Holt|Brazier Brannic Holt]]
 
+**The Cultists:** [[Brother Tamas]]
+
 ## Places
 - [[Hollowmere]]
-  - [[Hollowmere Chapel]] · [[Hollowmere Cemetery]] · [[The Inn]] · [[Mira's House]] · [[The Tithe Hall]] · [[The Moss Farm]]
+  - [[Hollowmere Chapel]] · [[Hollowmere Cemetery]] · [[The Half-Sunk Crypt]] · [[The Inn]] · [[Mira's House]] · [[The Tithe Hall]] · [[The Moss Farm]]
 - [[The Abandoned Monastery]]
 - [[The Tall Building to the South-East]]
 
 ## Groups
 - [[The Brotherhood of Ash]]
 - [[The Ravens]]
+- [[The Cultists]]

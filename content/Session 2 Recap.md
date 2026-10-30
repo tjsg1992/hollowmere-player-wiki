@@ -1,0 +1,11 @@
+---
+title: "Session 2 Recap"
+---
+- In the [[Hollowmere Cemetery]], the party found two zombies hauling a sledge with a huge forearm and hand on it, guarded by skeletons, with two [[The Cultists|singers in grey robes]] walking beside it.
+- The party destroyed the skeletons and zombies. Both singers fled into the woods, and the sledge was left at the cemetery's back gate.
+- The arm had been restored by necromancy: new flesh knitted over old bone.
+- One singer let slip that [[Brother Tamas]] had the keeper at the crypt.
+- [[Truman]] rang an old bell on a stone post by the back gate. While it rang, the chill everyone had felt since the wedding lifted.
+- Truman led the party to [[The Half-Sunk Crypt]] and burned away the wax seal on its door.
+- Inside, skeletons from the wall niches struck down [[Vex]] and Truman. [[Asha]] stabilised them and dragged them out.
+- [[Dhor Shortfoot]] found [[Oren Pike]] bound on an altar under Brother Tamas's knife, and threw a lantern and oil onto the platform.
